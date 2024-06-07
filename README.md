@@ -69,4 +69,4 @@ int main(int argc, char *argv[])
 **b)** ![comensales](TP3/punto2/comensales2.png)
 
 ## TP4
-* [Resolución]([TP1/captura.png](https://github.com/micaelazubiel/-ASO2024TPs/commit/05374c4795b0b9a1e24be06d4f0942e6ccc245b6))
+* [Resolución](https://github.com/micaelazubiel/-ASO2024TPs/commit/05374c4795b0b9a1e24be06d4f0942e6ccc245b6)
