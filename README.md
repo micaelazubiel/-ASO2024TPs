@@ -66,4 +66,4 @@ int main(int argc, char *argv[])
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
 ```
-**b)** ![comensales](https://github.com/micaelazubiel/-ASO2024TPs/assets/166451126/4860a7e2-ca26-405d-b4a0-a49f8786328b)
+**b)** ![comensales](TP3/punto2/comensales2.png)
