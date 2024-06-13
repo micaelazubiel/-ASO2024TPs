@@ -34,6 +34,7 @@ void *comer_hamburguesa(void *tid)
 		else
 		{
 			printf("SE TERMINARON LAS HAMBURGUESAS :( \n");
+        	        turno = (turno + 1)% NUMBER_OF_THREADS;
 
 			pthread_exit(NULL); // forzar terminacion del hilo
 		}
@@ -66,4 +67,7 @@ int main(int argc, char *argv[])
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
 ```
-**b)** ![comensales](https://github.com/micaelazubiel/-ASO2024TPs/assets/166451126/4860a7e2-ca26-405d-b4a0-a49f8786328b)
+**b)** ![comensales](TP3/punto2/comensales2.png)
+
+## TP4
+* [Resolución](https://github.com/micaelazubiel/-ASO2024TPs/commit/05374c4795b0b9a1e24be06d4f0942e6ccc245b6)
