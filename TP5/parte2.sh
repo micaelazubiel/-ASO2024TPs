@@ -2,14 +2,15 @@
 
 API_KEY="9cd657e203ec45e7b2503319241106"
 
-# verifica si se proporcionó una ciudad como argumento
-if [ $# -eq 0 ]; then
-    echo "Uso: $0 <ciudad>"
+# solicita al usuario que ingrese la ciudad
+echo -n "Ingrese la ciudad: "
+read CIUDAD
+
+# verifica si se proporcionó una ciudad
+if [ -z "$CIUDAD" ]; then
+    echo "No se ingresó ninguna ciudad."
     exit 1
 fi
-
-# obtiene la ciudad de los argumentos del script
-CIUDAD="$1"
 
 # hace una solicitud a la API de WeatherAPI para obtener el clima actual
 URL="http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${CIUDAD}&aqi=no"
