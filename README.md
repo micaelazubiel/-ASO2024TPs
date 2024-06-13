@@ -125,12 +125,8 @@ chmod +x piedra_papel_tijera.sh
   ![8](https://github.com/micaelazubiel/-ASO2024TPs/assets/166451126/5575b0e8-b1ea-46b9-afc6-fb4aad2d941b)
 
 * Verifica si se proporcionó una ciudad como argumento al script. Si no se proporciona, muestra un mensaje de uso y termina el script.
- 
-  ![9](https://github.com/micaelazubiel/-ASO2024TPs/assets/166451126/892b369f-7039-4e12-aeff-64ce41fefe2c)
-
-* Almacena el primer argumento (la ciudad) en una variable.
-
-  ![10](https://github.com/micaelazubiel/-ASO2024TPs/assets/166451126/e897ba29-a892-4e0e-a725-0b596c416e11)
+  
+  ![1](https://github.com/micaelazubiel/-ASO2024TPs/assets/166451126/e4db9fcc-0763-428a-b5a2-54bb7250b3dd)
 
 * Construye la URL para realizar la solicitud a la API de WeatherAPI, incluyendo la clave API y la ciudad especificada.
 
